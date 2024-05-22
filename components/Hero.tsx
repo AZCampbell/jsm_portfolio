@@ -1,6 +1,7 @@
 import React from "react";
 import { Spotlight } from "./ui/spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerate-Effect";
+import MagicButton from "./ui/MagicButton";
 
 const Hero = () => {
   return (
@@ -35,6 +36,11 @@ const Hero = () => {
             Hi, I&apos;m Jonathan, a Next.js Developer based in the United
             States.
           </p>
+
+          <a href="#about">
+            {" "}
+            <MagicButton title="Show my work" icon={undefined} position={""} />
+          </a>
         </div>
       </div>
     </div>
